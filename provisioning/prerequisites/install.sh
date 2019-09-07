@@ -7,10 +7,10 @@ figlet MASTER
 
 echo "[TASK 1] Add hosts to etc/hosts"
 cat >>/etc/hosts<<EOF
-100.10.10.100 k8s-master
-100.10.10.101 k8s-worker-1
-100.10.10.102 k8s-worker-2
-100.10.10.103 k8s-worker-3
+192.168.200.220 k8s-master
+192.168.200.221 k8s-worker1
+192.168.200.222 k8s-worker2
+192.168.200.223 k8s-worker3
 EOF
 
 echo "[TASK 2] Disable SELINUX"
